@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:description" content="This is J's Personal Website">
+    <meta name="keywords" content="This,is,the,key,words,that,the,search,engine,uses">
+    <meta name="description" content="This is what the description of the website would return with after a search">
+    <meta name="author" content = "JTB">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- there are all sorts of Meta elements that can be added, some of them are listed here, search the MDN for others -->
+    <title>👿J's Personal Website👿</title>
+    <style>
+    h1 {
+    text-align: center;
+    }
+    li {
+    text-indent: 40px
+    }
+    </style>
+    < !-- putting things in style sets the global theme for example p text-align center;
+    with in the tags of style Centers everything for the p tag -->
+
+  </head>
+  <body>
+    <!-- Center is deprecated should use textalign -->
+    <hr size="3">
+    <h1>The Adventures of Sherlock Holmes</h1>
+    <br>
+    <center>
+    <p>by</p>
+    <p><strong>Sir Aruthur Conan Doyle</strong></p>
+    <br>
+    <hr size="3" noshade>
+    </center>
+    <p>however this isn't centered</p>
+    <p style="text-align:center;">this would be centered</p>
+    <h1>and so is this by the global style command</h1>
+    <ul><strong>example of unordered list</strong>
+      <li style="text-indent: 10px">this course rocks</li>
+      <li>this is another bullet</li>
+      <li>This will be the last bullet</li>
+    </ul>
+    <ol><b>while this is an ordered list</b>
+      <li>this is item number one</li>
+      <li>while this is number two</li>
+      <li>and this will be our last</li>
+    </ol>
+    <!-- style has a bunch of features here we used text-align and text-indent -->
+    <!-- while b bolds, strong emphisis's importance -->
+    <!-- while we have a global for style on li, notice we can over ride its value locally -->
+    <!-- we can even indent our bullets and ordered list with nested ol and ul commands -->
+    <!-- also note the square for this next list, note remember your nesting -->
+    <ul><b>what we want to list out here</b><ul type=square>
+      <li>followed by our listed items here</li>
+      <li>here</li>
+      <li>and here</li>
+    </ul></ul>
+    <p style="text-shadow: 1px 1px 2px pink"> is the fact that sublime actually does a better job at editing than atom .. Just saying</p>
+    <p style="text-shadow: 5px 5px 2px blue">see my shadow ?? </p>
+    <p style="text-shadow: 1px 1px 1px red">By the way you can set this up globally as well in the style values if you wanted</p>
+    <p>While this has been cool, we need to do the next excercise
+    <br>Written By: <strong><em>JTB</em></strong></p>
+    <p>This has been really cool and I like this a lot actually I can't wait to learn more</p>
+    <p style="text-decoration: green wavy underline;">I love you D :)</p>
+    <!-- becareful of how you develope this, as you noticed this doesn't work in Safari but does in Chrome -->
+    <!-- On to Lesson of the personal website -->
+    <hr>
+    <hr>
+    <style>
+    H1{text-align: left}
+    </style>
+    <H1>JTB</H1>
+    <img src="eagle.png" sizes="(max-width: 400 px) 200 px, 50vw" alt="Jeffery profile picture">
+    <p><em>Sr. Security Network Architect for </em><strong>Fictional Company</strong> </p>
+    <hr>
+    <p>Some of the areas in which I work in are</p>
+    <ol><strong>Networking</strong>
+      <li><em>Routing</em></li>
+      <li><em>Switching</em></li>
+      <li><em>Wireless</em></li>
+    </ol>
+    <ul type=circle><strong>Operating Systems</strong>
+      <li>Windows</li>
+      <li>Unix</li>
+      <li>OSX</li>
+      <li>Linux</li>
+    </ul>
+    <hr>
+    <h1>Hobbies</h1>
+    <ol type="i">
+      <li>Internet</li>
+      <li>Pentesting</li>
+      <li>Ethical Hacking</li>
+      <li>Troubleshooting</li>
+      <li>programming</li>
+
+    </ol>
+    <!-- notice instead of dot's we have circles -->
+    <hr>
+ <img src="https://www.nationalgeographic.com/content/dam/photography/PROOF/2017/August/eagle-trafficking/eagle_corey_arnold.adapt.1900.1.jpg">
+
+
+
+
+
+  </body>
+</html>
